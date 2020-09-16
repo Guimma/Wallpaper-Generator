@@ -1,5 +1,6 @@
 from PIL import Image
 import os
+import shutil
 
 def clear_temp():
     folder = './temp'
@@ -42,6 +43,9 @@ def main():
 
     # in case you want to keep the cropped images, stop calling this function and check the temp folder
     clear_temp()
+
+    shutil.make_archive('./wallpapers', 'zip', './wallpapers')
+    print('wallpapers folder zipped!')
 
 if __name__ == "__main__":
     main()

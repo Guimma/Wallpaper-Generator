@@ -6,4 +6,5 @@
  Setup your logo images in the folder __./logos__.<br />
  Run the file _generator.py_.<br />
  The generated wallpapers will be at the folder __./wallpapers__.<br />
+ A zipped wallpapers folder will be available as well. __./wallpapers.zip__.<br />
  The __./temp__ folder will be clean after the execution.<br />
